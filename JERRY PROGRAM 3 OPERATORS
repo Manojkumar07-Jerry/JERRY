@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main() {
+    int a,b,c,sum,sub,mult,divi,mod;
+    printf("enter the value of a:");
+    scanf("%d",&a);
+    printf("enter the value of b:");
+    scanf("%d",&b);
+    printf("enter the value of c:");
+    scanf("%d",&c);
+    sum=a+b;
+    printf("\n sum of values: %d",sum);
+    sub=c-a;
+    printf("\n sub of values: %d",sub);
+    mult=a*b;
+    printf("\n mult of values: %d",mult);
+    divi=b/a;
+    printf("\n division of values: %d",divi);
+    mod=c%a;
+    printf("\n modulus of values: %d",mod);
+}

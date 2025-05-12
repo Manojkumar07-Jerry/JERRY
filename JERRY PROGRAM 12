@@ -1,0 +1,13 @@
+#include <stdio.h>
+ 
+int main()
+{
+ int l,b;
+ printf("the length of the rectangle:",l);
+ scanf("%d",&l);
+ printf("the breadth of the rectangle:",b);
+ scanf("%d",&b);
+ printf("Area of rectangle is : %d", l * b);
+ printf("\n Perimeter of rectangle is : %d", 2 * (l + b));
+}
+   

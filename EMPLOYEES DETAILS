@@ -1,0 +1,11 @@
+#include <stdio.h> 
+int main() {
+  char employee_name; 
+  printf("enter th employee name:");
+  scanf("%s",employee_name);
+  int age=19;
+  int salary=20000;
+  printf(" the age of the employee is:%d",age);
+  printf("\n the salary of the employee is:%d",salary);
+}
+    

@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main() {
+   int a,b,c,d,e;
+   printf("enter the TAMIL MARK:");
+   scanf("%d",&a);
+    printf("enter the english mark:");
+   scanf("%d",&b);
+    printf("enter the maths mark:");
+   scanf("%d",&c);
+   printf("enter the science mark:");
+   scanf("%d",&d);
+   printf("enter the social mark:");
+   scanf("%d",&e);
+   int total=a+b+c+d+e;
+   printf("total mark is:%d",total);
+   float average=total/5;
+   printf("\n average is:%1f",average);
+    return 0;
+}

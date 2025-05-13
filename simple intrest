@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    float P,R,T;
+    printf("enter the principle amount:");
+    scanf("%f",&P);
+     printf("enter the rate:");
+    scanf("%f",&R);
+     printf("enter the time:");
+    scanf("%f",&T);
+    float SI = (P * T * R) / 100;
+    printf("Simple Interest = %f\n", SI);
+    return 0;
+}

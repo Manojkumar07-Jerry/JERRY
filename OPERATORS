@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    int a,b;
+    printf("enter the value of a:");
+    scanf("%d",&a);
+    printf("enter he vaue of b:");
+    scanf("%d",&b);
+    printf("the sum of the values:%d",a+b);
+    printf("\n the sub of the values:%d",a-b);
+    printf("\n the mult of the values:%d",a*b);
+    printf("\n the div of the values:%d",b/a);
+    printf("\n the mod of the values:%d",b%a);
+    return 0;
+}

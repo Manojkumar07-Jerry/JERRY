@@ -1,0 +1,18 @@
+int main() 
+{
+    int n;
+    scanf("%d",&n);
+    int a[n],i,sum=0;
+    for(i=0;i<n;i++)
+    {
+      scanf("%d",&a[i]);
+      sum=sum+a[i];
+    }
+     for(i=0;i<n;i++)
+     {
+         printf("%d ",sum-a[i]);
+     }
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}

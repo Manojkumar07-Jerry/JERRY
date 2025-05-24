@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include<ctype.h>
+int main()
+{
+    char str[1000];
+    int vowels=0,consoants = 0;
+    printf("Enter the String:");
+    fgets(str,sizeof(str),stdin);
+    for(int i=0;str[i]!='\0';i++){
+        char ch =tolower(str[i]);
+        if(isalpha(ch))
+        {
+            if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+                vowels++;
+            }
+            else{
+                consoants++;
+            }
+        }
+    }
+printf("vowels:%d\n",vowels);
+printf("consoants:%d\n",consoants);
+    return 0;
+}

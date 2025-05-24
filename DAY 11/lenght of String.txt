@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+char str[]="Hello World!";
+char *ptr=str;
+int lenght=0;
+while(*ptr!='\0'){
+    lenght++;
+    ptr++;
+}
+printf("lenght of the Strings is : %d\n",lenght);
+    return 0;
+}
